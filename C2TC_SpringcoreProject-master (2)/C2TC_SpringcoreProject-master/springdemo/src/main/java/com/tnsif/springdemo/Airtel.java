@@ -1,0 +1,20 @@
+package com.tnsif.springdemo;
+
+public class Airtel implements Mobile{
+
+	public void call() {
+		// TODO Auto-generated method stub
+		System.out.println("call using airtel");
+		
+	}
+
+	@Override
+	public void data() {
+		// TODO Auto-generated method stub
+		System.out.println("Call share using Airtel");
+		
+	}
+	
+
+
+}
